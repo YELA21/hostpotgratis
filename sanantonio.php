@@ -278,12 +278,13 @@
     document.getElementById('countdown').innerHTML = totalTime;
     if (totalTime==14){
       scroll(0, 100);
+      document.getElementById("video").play();
     }
+
     if(totalTime==0){
       $(".content").fadeOut(1500);
       $(".content2").fadeIn(2500);
       scroll(0, 100);
-      document.getElementById("video").play();
       console.log('Final');
     }else{
       totalTime-=1;
