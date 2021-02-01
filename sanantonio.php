@@ -93,7 +93,7 @@
                 <div class="alert alert-info">
 
                 <a>Obtenga 15 minutos</a>
-                <a id='aLink' href="#openModal" class="btn btn-success">Gratis</a>
+                <a id='aLink' href="#openModal" onclick="reproducir()" class="btn btn-success">Gratis</a>
                 <!--<a href='google.com' class="btn btn-success" id='aLink'>Google</a>-->
 
                 </div>
@@ -304,7 +304,6 @@
 
    enlaceAleatorio();
    //$("#htmlext").load('public2.php');
-   document.getElementById("video").play();
 
   });
 
