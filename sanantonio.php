@@ -278,7 +278,6 @@
     document.getElementById('countdown').innerHTML = totalTime;
     if (totalTime==14){
       scroll(0, 100);
-      document.getElementById("video").play();
     }
 
     if(totalTime==0){
