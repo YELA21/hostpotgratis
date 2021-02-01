@@ -1,6 +1,6 @@
 
 <div align= "center">
-	<video id="video" width="350" height="350">
+	<video id="video" width="100%" height="auto">
 	    <source src="publicidad/corto.mp4" type="video/mp4">
 	</video>
 	<script>
