@@ -304,7 +304,7 @@
 
    enlaceAleatorio();
    //$("#htmlext").load('public2.php');
-   reproducir()
+   document.getElementById("video").play();
 
   });
 
