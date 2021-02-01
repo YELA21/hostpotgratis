@@ -93,7 +93,7 @@
                 <div class="alert alert-info">
 
                 <a>Obtenga 15 minutos</a>
-                <a id='aLink' href="#openModal" onclick="reproducir()" class="btn btn-success">Gratis</a>
+                <a id='aLink' href="#openModal" class="btn btn-success">Gratis</a>
                 <!--<a href='google.com' class="btn btn-success" id='aLink'>Google</a>-->
 
                 </div>
@@ -283,6 +283,7 @@
       $(".content").fadeOut(1500);
       $(".content2").fadeIn(2500);
       scroll(0, 100);
+      document.getElementById("video").play();
       console.log('Final');
     }else{
       totalTime-=1;
