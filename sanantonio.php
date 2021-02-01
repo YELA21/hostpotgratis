@@ -304,8 +304,20 @@
 
    enlaceAleatorio();
    //$("#htmlext").load('public2.php');
+   reproducir()
 
   });
+
+  </script>
+
+  <script type="text/javascript">
+  window.reproducir = function() {
+      document.getElementById("video").play();
+  };
+
+  window.pausar = function() {
+      document.getElementById("video").pause();
+  };
 
   </script>
 

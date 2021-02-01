@@ -1,8 +1,6 @@
 
-      <div align= "center">
-				<picture>
-					<source media="(min-width: 900px)" srcset="publicidad/netflix.gif">
-	        <source media="(min-width: 550px)" srcset="publicidad/netflix1.gif">
-	        <img src="publicidad/netflix1.gif">
-        </picture>
-		  </div>
+<div align= "center">
+	<video id="video" width="350" height="350">
+	    <source src="publicidad/corto.mp4" type="video/mp4">
+	</video>
+</div>
